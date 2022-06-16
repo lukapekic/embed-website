@@ -1,10 +1,19 @@
 $font-primary: 'Readex Pro', sans-serif;
 
-$text-primary: #232323;
-$text-secondary: #ffffff;
-
+$dark-grey: #232323;
+$white: #ffffff;
 $brand-blue: #16BBFD;
 $brand-pink: #F059FC;
+$light-purple: #9484AF;
+$mid-purple: #747FFE;
+
+$text-primary: $dark-grey;
+$text-secondary: $white;
 
 $gradient-primary-vertical: linear-gradient($brand-pink, $brand-blue); 
 $gradient-primary-horizontal: linear-gradient(to right, $brand-pink, $brand-blue); 
+
+$button-text-hover: $mid-purple;
+$button-text-active: $light-purple;
+$button-background-primary: $white;
+$button-background-secondary: transparent;
