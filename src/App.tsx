@@ -1,11 +1,8 @@
 import { FunctionComponent } from "react";
+import { LandingPageView } from "./views";
 
 const App: FunctionComponent = () => {
-  return (
-    <div>
-      <h1>Application</h1>
-    </div>
-  );
+  return <LandingPageView />;
 };
 
 export default App;
