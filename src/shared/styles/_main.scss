@@ -1,0 +1,27 @@
+@use "/src/shared/styles/abstract/variables" as v;
+@import "/src/shared/styles/core/reset";
+@import "/src/shared/styles/core/typography";
+
+$multiple-select-radius: 0px;
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+
+    & > *:focus {
+        outline: none;
+    }
+
+    & > * {
+        box-sizing: border-box;
+    }
+}
+
+#root {
+    height: 100%;
+}
+
