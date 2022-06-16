@@ -25,7 +25,9 @@
 
     &--secondary {
         color: v.$text-secondary;
-        background-color: v.$button-background-secondary;
+        background: 
+        v.$gradient-primary-horizontal border-box,
+        linear-gradient(v.$button-background-secondary, v.$button-background-secondary) padding-box;
 
         &:hover {
             color: v.$text-secondary;

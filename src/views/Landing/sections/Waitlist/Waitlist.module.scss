@@ -1,0 +1,25 @@
+@use "/src/shared/styles/abstract/variables" as v;
+
+.waitlist {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 0rem 0rem 4.688rem 0rem;
+
+    &__title {
+        color: v.$text-secondary;
+        font-size: 2rem;
+        margin-bottom: 2.75rem;
+
+        @media (min-width: 768px) {
+            font-size: 5.25rem;
+        }
+    }
+}

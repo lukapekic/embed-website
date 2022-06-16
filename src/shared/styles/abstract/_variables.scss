@@ -17,7 +17,7 @@ $gradient-primary-horizontal: linear-gradient(to right, $brand-pink, $brand-blue
 $button-text-hover: $mid-purple;
 $button-text-active: $light-purple;
 $button-background-primary: $white;
-$button-background-secondary: transparent;
+$button-background-secondary: rgba(255,255,255,0);
 
 $link-text-primary: $purple;
 $link-text-secondary: $white;
