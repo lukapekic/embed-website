@@ -1,0 +1,38 @@
+@use "/src/shared/styles/abstract/variables" as v;
+
+.button {
+    padding: 1.125rem 0.813rem 1.125rem 1.313rem;
+    font-size: 1.125rem;
+    color: v.$text-primary;
+    background: 
+        linear-gradient(v.$button-background-primary, v.$button-background-primary) padding-box, 
+        v.$gradient-primary-horizontal border-box;
+    border: 4px solid transparent;
+    border-radius: 0.75rem;
+    cursor: pointer;
+
+    &:hover {
+        color: v.$button-text-hover;
+    }
+
+    &:active {
+        color: v.$button-text-active;
+    }
+
+    &__icon {
+        margin-left: 3.563rem;
+    }
+
+    &--secondary {
+        color: v.$text-secondary;
+        background-color: v.$button-background-secondary;
+
+        &:hover {
+            color: v.$text-secondary;
+        }
+    
+        &:active {
+            color: v.$text-secondary;
+        }
+    }
+}
