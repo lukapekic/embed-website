@@ -4,6 +4,7 @@ $dark-grey: #232323;
 $white: #ffffff;
 $brand-blue: #16BBFD;
 $brand-pink: #F059FC;
+$purple: #280A5F;
 $light-purple: #9484AF;
 $mid-purple: #747FFE;
 
@@ -17,3 +18,8 @@ $button-text-hover: $mid-purple;
 $button-text-active: $light-purple;
 $button-background-primary: $white;
 $button-background-secondary: transparent;
+
+$link-text-primary: $purple;
+$link-text-secondary: $white;
+$link-text-hover: $light-purple;
+$link-text-active: $mid-purple;

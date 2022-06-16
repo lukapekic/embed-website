@@ -1,5 +1,4 @@
 import { FunctionComponent } from "react";
-import { Button } from "./components";
 
 const App: FunctionComponent = () => {
   return (
