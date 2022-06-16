@@ -1,9 +1,10 @@
 import { FunctionComponent } from "react";
-import { WaitingListSection } from "./sections";
+import { WaitingListSection, EarnSection } from "./sections";
 
 export const LandingPageView: FunctionComponent = () => {
   return (
     <>
+      <EarnSection />
       <WaitingListSection />
     </>
   );

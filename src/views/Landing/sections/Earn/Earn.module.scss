@@ -1,0 +1,66 @@
+.earn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4.5rem 1.5rem 7.625rem 1.5rem;
+
+    @media (min-width: 768px) {
+        align-items: center;
+        max-width: 71.375rem;
+        margin: 0 auto;
+
+        height: 100vh;
+        padding: 0rem;
+    }
+
+    &__title {
+        font-size: 2rem;
+        line-height: 2.188rem;
+        margin-bottom: 1.188rem;
+
+        &-subtitle {
+            font-size: 1.125rem;
+            line-height: 1.813rem;
+        }
+
+        &-wrapper {
+            margin-bottom: 2.625rem;
+
+            @media (min-width: 768px) {
+                margin-bottom: 3.75rem;
+            }
+        }
+
+        @media (min-width: 768px) {
+            margin-bottom: 3.75rem;
+            text-align: center;
+        }
+    }
+
+    &__cta {
+        &-text {
+            font-size: 1.25rem;
+            line-height: 2rem;
+            margin-bottom: 1.875rem;
+        }
+
+        &-wrapper {
+            @media (min-width: 768px) {
+                text-align: center;
+            }
+        }
+    }
+
+    &__steps {
+        @media (min-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        &-item {
+            @media (min-width: 768px) {
+                max-width: 27%;
+            } 
+        }
+    }
+}

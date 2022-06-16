@@ -1,0 +1,44 @@
+@use "/src/shared/styles/abstract/variables" as v;
+
+.step {
+    margin-bottom: 60px;
+
+    &__header {
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid #EEEDEF;
+
+        display: flex;
+        align-items: center;
+
+        &-title {
+            font-size: 2rem;
+            line-height: 1.313rem;
+        }
+
+        &-icon {
+            font-size: 2rem;
+            margin-right: 0.625rem;
+
+            @media (min-width: 768px) {
+                margin-right: 0rem;
+                margin-bottom: 2rem;
+            }
+        }
+
+        @media (min-width: 768px) {
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+        font-size: 1.125rem;
+        line-height: 1.813rem;
+        margin-bottom: 1rem;
+    }
+
+    &__list {
+        list-style: decimal;
+        padding-left: 1.5rem;
+    }
+}
